@@ -1,0 +1,157 @@
+* { 
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+li { list-style: none;}
+
+.container-fluid {
+    background-color: mediumpurple;
+    background-size: cover;
+    background-position: center;
+    font-weight: 700vh;
+}
+
+
+
+/* Nav */
+
+.navbar {padding-left: 175px;}
+.main-nav {
+    text-align: center;
+    width: 100%;
+    list-style: none;
+    font-size: 16px;
+    margin-right: 60px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+ 
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid white;
+}
+
+
+/* Content */
+
+h1 {
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+.author img {
+    width: 15%;
+}
+
+.about {
+    float: right;
+    width: 80%;
+    padding-bottom: 75px;
+    text-indent: 35px;
+    line-height: 150%
+    
+}
+
+.btn:link,
+.bth:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;}
+
+.btn-proof:link,
+.btn-proof:visited { 
+    border: 1px solid #000000;
+    background-color: #fff;
+    color: black;
+    width: 35%;
+}
+
+.proof {
+    text-align: center;
+    padding-right: 100px;
+}
+
+table, td {border: 1px solid; }
+
+.skills {
+    padding-top: 15px;
+    padding-left: 350px;
+    padding-bottom: 30px;
+}
+
+.work-skills {
+    width: 75%;
+    padding-bottom: 30px;
+    margin-left: 100px;
+}
+
+/* experience */
+
+h3 { 
+    padding-top: 15px;
+    text-align: center;
+    padding-right: 70px;
+}
+
+.work { 
+    padding-bottom: 10px;}
+
+.acad,
+.support { 
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.links { 
+    text-align: center; 
+    padding-bottom: 50px;
+}
+
+.space { padding-bottom: 30px;}
+
+
+/* footer */
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    padding-bottom: 30px;
+    font-size: 80%;
+}

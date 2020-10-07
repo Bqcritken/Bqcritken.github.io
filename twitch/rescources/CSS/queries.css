@@ -1,0 +1,41 @@
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    
+    .table-sch {padding-left: 130px;}
+    label {margin-right: 5px;}
+    
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    
+    
+    .table-sch {
+        padding-left: 65px;       
+    }
+ 
+        
+    
+}
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 510px) {
+
+    
+    .goal-icon {margin-right: 0}
+    
+    .goal {font-size: 80%;}
+    
+    .table-sch {padding-left: 30px;}
+    
+    footer p {font-size: 90%;}
+    
+.table-sch {padding-left: 10px;}
+
+    .table-sch {padding-left: 10px;}
+    
+}
